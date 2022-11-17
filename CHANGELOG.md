@@ -2,6 +2,8 @@
 
 ## [next]
 
+## [1.10.0] - 2022-11-17
+
 ### Added
 - Set `IDEA_PLUGIN_SANDBOX_MODE` to `true` for `runIde`-based tasks
 - The `listBundledPlugins` task for listing IDs of plugins bundled within the currently targeted IDE
@@ -9,7 +11,7 @@
 
 ### Fixed
 - Invalidate instrumented classes bound to forms if GUI changed [IDEA-298989](https://youtrack.jetbrains.com/issue/IDEA-298989/Duplicate-method-name-getFont)
-- Revert pushing project resource directories to the end of classpath in the test task context. ([#1101](../../issues/1101))
+- Revert pushing project resource directories to the end of classpath in the test task context. [#1101](../../issues/1101)
 - Avoid unnecessary task configuration during Gradle configuration phase [#1110](../../issues/1110) by @3flex
 - Replace internal Gradle ConventionTask with DefaultTask [#1115](../../issues/1115) by @aSemy
 - Plugin Verifier cache directory now follows XDG cache standards [#1119](../../issues/1119) by @aSemy
@@ -594,7 +596,8 @@
 ## [0.0.10]
 - Support for attaching IntelliJ sources in IDEA
 
-[next]: https://github.com/JetBrains/gradle-intellij-plugin/compare/v1.9.0...HEAD
+[next]: https://github.com/JetBrains/gradle-intellij-plugin/compare/v1.10.0...HEAD
+[1.10.0]: https://github.com/JetBrains/gradle-intellij-plugin/compare/v1.9.0...v1.10.0
 [1.9.0]: https://github.com/JetBrains/gradle-intellij-plugin/compare/v1.8.1...v1.9.0
 [1.8.1]: https://github.com/JetBrains/gradle-intellij-plugin/compare/v1.8.0...v1.8.1
 [1.8.0]: https://github.com/JetBrains/gradle-intellij-plugin/compare/v1.7.0...v1.8.0
