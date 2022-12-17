@@ -2,6 +2,8 @@
 
 ## [next]
 
+## [1.11.0] - 2022-12-17
+
 ### Added
 - `printProductsReleases` task to print the result of the `listProductsReleases` task
 - `printBundledPlugins` task to print the result of the `listBundledPlugins` task
@@ -627,7 +629,9 @@
 ## [0.0.10]
 - Support for attaching IntelliJ sources in IDEA
 
-[next]: https://github.com/JetBrains/gradle-intellij-plugin/compare/v1.10.1...HEAD
+[next]: https://github.com/JetBrains/gradle-intellij-plugin/compare/v1.11.0...HEAD
+[1.11.0]: https://github.com/JetBrains/gradle-intellij-plugin/compare/v1.10.2...v1.11.0
+[1.10.2]: https://github.com/JetBrains/gradle-intellij-plugin/compare/v1.10.1...v1.10.2
 [1.10.1]: https://github.com/JetBrains/gradle-intellij-plugin/compare/v1.10.0...v1.10.1
 [1.10.0]: https://github.com/JetBrains/gradle-intellij-plugin/compare/v1.9.0...v1.10.0
 [1.9.0]: https://github.com/JetBrains/gradle-intellij-plugin/compare/v1.8.1...v1.9.0
