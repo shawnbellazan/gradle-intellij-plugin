@@ -20,6 +20,7 @@ object IntelliJPluginConstants {
     const val INSTRUMENT_CODE_TASK_NAME = "instrumentCode"
     const val INSTRUMENT_TEST_CODE_TASK_NAME = "instrumentTestCode"
     const val INSTRUMENTED_JAR_TASK_NAME = "instrumentedJar"
+    const val INSTRUMENTED_TEST_JAR_TASK_NAME = "instrumentedTestJar"
     const val JAR_SEARCHABLE_OPTIONS_TASK_NAME = "jarSearchableOptions"
     const val LIST_BUNDLED_PLUGINS_TASK_NAME = "listBundledPlugins"
     const val LIST_PRODUCTS_RELEASES_TASK_NAME = "listProductsReleases"
@@ -37,6 +38,7 @@ object IntelliJPluginConstants {
     const val SETUP_DEPENDENCIES_TASK_NAME = "setupDependencies"
     const val SETUP_INSTRUMENT_CODE_TASK_NAME = "setupInstrumentCode"
     const val SIGN_PLUGIN_TASK_NAME = "signPlugin"
+    const val TEST_JAR_TASK_NAME = "testJar"
     const val VERIFY_PLUGIN_TASK_NAME = "verifyPlugin"
     const val VERIFY_PLUGIN_CONFIGURATION_TASK_NAME = "verifyPluginConfiguration"
 
@@ -86,7 +88,9 @@ object IntelliJPluginConstants {
     const val IDEA_PLUGINS_CONFIGURATION_NAME = "z50_ideaPlugins"
     const val IDEA_CONFIGURATION_NAME = "z90_intellij"
     const val INSTRUMENTED_JAR_CONFIGURATION_NAME = "instrumentedJar"
+    const val INSTRUMENTED_TEST_JAR_CONFIGURATION_NAME = "instrumentedTestJar"
     const val INSTRUMENTED_JAR_PREFIX = "instrumented"
+    const val INSTRUMENTED_TEST_JAR_PREFIX = "instrumented-test"
 
     const val ANNOTATIONS_DEPENDENCY_VERSION = "24.0.0"
     const val DEFAULT_IDEA_VERSION = "LATEST-EAP-SNAPSHOT"
